@@ -1,0 +1,150 @@
+.container{
+    margin:0 20px;
+	font-family: 'Poppins', sans-serif;
+}
+.head{
+	text-align:center;
+    margin: 10px 0;
+    line-height: 25px;
+	
+}
+.head h1{
+	font-size:13px;
+	font-weight:bold;
+}
+.head h2{
+	font-size:10px;
+}
+.head p{
+	font-size:8px;
+}
+.head p a{
+	color:blue;
+
+}
+.career-cont{
+		padding:10px 0px;
+	}
+	.career-cont h3{
+		font-size:10px;
+		font-weight:bold;
+		margin:10px 0px;
+	}
+	.career-cont p{
+		font-size:8px;
+		margin:6px 0 0;
+	}
+	.career-cont span{
+		color:gray;
+	}
+/* career */
+.career h2{
+	font-size:10px;
+	margin:10px 0px;
+	font-weight:bold;
+}
+.career p{
+	font-size:10px;
+	line-height:10px;
+}
+/* @media */
+
+@media(min-width: 768px){
+	.container{
+		margin: 10px 35px;
+		font-family: 'Poppins', sans-serif;
+	}
+	.head{
+		text-align:center;
+		margin:25px 0;
+		line-height:35px;
+		
+	}
+	.head h1{
+		font-size:20px;
+		font-weight:bold;
+	}
+	.head h2{
+		font-size:11px;
+		color:blue;
+	}
+	.head p{
+		font-size:10px;
+	}
+	.head p a{
+		color:blue;
+	}
+	.career h2{
+		font-size:13px;
+		margin:10px 0px;
+		font-weight:bold;
+	}
+	.career p{
+		font-size:11px;
+		line-height:20px;
+    }
+	.career-cont{
+		padding:20px 0px;
+	}
+	.career-cont h3{
+		font-size:12px;
+		font-weight:bold;
+		margin:10px 0px;
+	}
+	.career-cont p{
+		font-size:10px;
+		margin:6px 0 0;
+	}
+	.career-cont span{
+		color:gray;
+	}
+}
+@media(min-width: 1024px){
+	.container{
+		margin:30px 50px;
+		font-family: 'Poppins', sans-serif;
+	}
+	.head{
+	text-align:center;
+    margin: 15px 0;
+    line-height:35px;
+		
+	}
+	.head h1{
+		font-size:35px;
+		font-weight:bold;
+	}
+	.head h2{
+		font-size:25px;
+	}
+	.head p{
+		font-size:18px;
+	}
+	.head p a{
+		color:blue;
+	}
+	.career h2{
+		font-size:20px;
+		margin:10px 0px;
+		font-weight:bold;
+	}
+	.career p{
+		font-size:15px;
+		line-height:20px;
+    }
+	.career-cont{
+		padding:20px 0px;
+	}
+	.career-cont h3{
+		font-size:20px;
+		font-weight:bold;
+		margin:10px 0px;
+	}
+	.career-cont p{
+		font-size:15px;
+		padding:5px 0;
+	}
+	.career-cont span{
+		color:gray;
+	}
+}
