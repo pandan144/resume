@@ -47,6 +47,40 @@
 	font-size:10px;
 	line-height:10px;
 }
+/*Skill*/
+.skill ol {
+	list-style-type:number;
+	font-weight:bold;
+	
+}
+.skill table{
+	border:1px solid black;	
+	width:100%;
+
+}
+.skill table td{
+	border:1px solid black;
+	padding:5px;
+}
+.skill li{
+	margin:0px 20px;
+}
+.skill h3{
+	text-align:left;  
+	font-size:20px;
+	font-weight:bold;
+	margin: 10px 0px;
+}
+.skill h4{
+   font-size:16px;
+   font-weight:bold;
+   margin:5px 0px;
+}
+.skill p,li{
+	 font-size:15px;
+	 line-height:20px;	 
+}
+
 /* @media */
 
 @media(min-width: 768px){
@@ -107,7 +141,7 @@
 	.head{
 	text-align:center;
     margin: 15px 0;
-    line-height:35px;
+    line-height:45px;
 		
 	}
 	.head h1{
